@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeResort | Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="nav-logo">LuxeResort</div>
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="menu-icon">☰</label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="nav-search">
+      <a href="booking.html" class="btn" style="padding: 0.5rem 1rem;">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION: Tropical Resort aerial view -->
+  <header class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1920&q=80') center/cover fixed;">
+    <h1>Welcome to LuxeResort</h1>
+    <p>Discover a sanctuary of coastal luxury, tropical comfort, and personalized service.</p>
+    <form class="booking-bar" action="booking.html">
+      <div class="input-group"><label>Location</label><input type="text" placeholder="Tropical Escape" required></div>
+      <div class="divider"></div>
+      <div class="input-group"><label>Check in</label><input type="date" required></div>
+      <div class="divider"></div>
+      <div class="input-group"><label>Check out</label><input type="date" required></div>
+      <button type="submit" class="btn btn-search">Search</button>
+    </form>
+  </header>
+
+  <main class="section-wrapper">
+    <div class="section-header"><h2>Experience the Extraordinary</h2><p>Curated specifically for your ultimate coastal relaxation.</p></div>
+
+    <section class="feature-split">
+      <div class="feature-text">
+        <h3>Exclusive Boutique Advantage</h3>
+        <p>Book a resort that welcomes you with open arms. We offer world-class amenities, stunning ocean views, and connect you with bespoke concierge services the moment you arrive.</p>
+        <a href="about.html" class="btn">Discover Our Story</a>
+      </div>
+      <div class="feature-image">
+        <!-- UPDATED: Classy, sophisticated, and muted minimalist coastal resort architecture -->
+        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80" alt="Sophisticated Coastal Resort Architecture">
+      </div>
+    </section>
+
+    <div class="section-header" style="margin-top: 6rem;"><h2>Featured Accommodations</h2><p>Find the perfect coastal space for your stay.</p></div>
+    <section class="cards-grid">
+      <div class="card">
+        <!-- Deluxe Ocean View -->
+        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=600&q=80" alt="Deluxe Room">
+        <div class="card-body">
+          <h4>The Deluxe Haven</h4><p>A beautifully appointed room featuring a king-size bed and breathtaking ocean views.</p><a href="deluxe.html" class="btn">VIEW ROOM</a>
+        </div>
+      </div>
+      <div class="card">
+        <!-- Executive Tropical Suite -->
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Executive Suite">
+        <div class="card-body">
+          <h4>The Executive Suite</h4><p>Spacious living area, premium amenities, a private balcony, and tropical garden access.</p><a href="executive.html" class="btn">VIEW SUITE</a>
+        </div>
+      </div>
+      <div class="card">
+        <!-- Modern Coastal Penthouse -->
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80" alt="Penthouse">
+        <div class="card-body">
+          <h4>The Penthouse</h4><p>The ultimate luxury experience with panoramic ocean views and a private infinity pool.</p><a href="penthouse.html" class="btn">VIEW PENTHOUSE</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-header" style="margin-top: 8rem;"><h2>Unparalleled Amenities</h2><p>Everything you need for a rejuvenating tropical retreat.</p></div>
+    <section class="feature-split reverse">
+      <div class="feature-text">
+        <h3>Tailored to Your Comfort</h3>
+        <p>From our award-winning open-air spa to fine coastal dining curated by Michelin-starred chefs, every detail of LuxeResort is designed to exceed your highest expectations.</p>
+        <a href="amenities.html" class="btn">Explore Amenities</a>
+      </div>
+      <div class="feature-image">
+        <!-- Spa/Pool Tropical Image -->
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Tropical Resort Spa Pool">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links"><a href="index.html">Home</a><a href="amenities.html">Amenities</a><a href="rooms.html">Rooms</a><a href="contact.html">Contact</a><a href="about.html">About</a></div>
+    <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
