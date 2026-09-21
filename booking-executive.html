@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeResort | Book The Executive Suite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: var(--bg-offset);">
+  <nav class="navbar-custom">
+    <div class="nav-left">
+      <div class="nav-logo">LuxeResort</div>
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="menu-icon">☰</label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="nav-search">
+      <a href="contact.html" class="btn-custom" style="padding: 0.5rem 1rem;">Contact Us</a>
+    </div>
+  </nav>
+
+  <main class="container my-4 py-2 booking-container">
+    <div class="text-center mb-4">
+      <h2 class="mb-1">Reserve The Executive Suite</h2>
+      <p class="text-muted small mb-0">Spacious coastal indulgence with separate living salon and expansive sunset balcony.</p>
+    </div>
+    
+    <div class="row g-4 align-items-stretch">
+      <div class="col-lg-7">
+        <div class="booking-card">
+          <form action="#" method="get">
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Full Name</label>
+                <input type="text" class="form-control p-2 bg-light border-0" placeholder="John Doe" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Email Address</label>
+                <input type="email" class="form-control p-2 bg-light border-0" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Check-in Date</label>
+                <input type="date" class="form-control p-2 bg-light border-0" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Check-out Date</label>
+                <input type="date" class="form-control p-2 bg-light border-0" required>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-3">
+              <div class="col-md-7">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Room Preference</label>
+                <select class="form-select p-2 bg-light border-0" required>
+                  <option value="deluxe">The Deluxe Haven ($250 / night)</option>
+                  <option value="suite" selected>The Executive Suite ($450 / night)</option>
+                  <option value="penthouse">The Penthouse ($1,200 / night)</option>
+                </select>
+              </div>
+              <div class="col-md-5">
+                <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Guests</label>
+                <select class="form-select p-2 bg-light border-0" required>
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Special Requests</label>
+              <textarea class="form-control p-2 bg-light border-0" rows="2" placeholder="Airport transfer details, champagne preferences, arrival time..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-search w-100 py-2">Confirm Executive Suite Booking</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="col-lg-5">
+        <div class="booking-visual-card">
+          <div class="booking-visual-img-wrap">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="The Executive Suite">
+            <div class="booking-visual-badge">Selected: Executive Suite</div>
+          </div>
+          <div class="booking-visual-content">
+            <div>
+              <h4 class="mb-1" style="color: var(--primary);">The Executive Suite</h4>
+              <div class="booking-rate-pill">
+                <i class="bi bi-tag-fill"></i> $450 / night • Living Lounge • Sunset Balcony
+              </div>
+              <div class="booking-perk-item">
+                <i class="bi bi-car-front booking-perk-icon"></i>
+                <span><strong>Airport Chauffeur:</strong> Complimentary round-trip luxury airport transfer.</span>
+              </div>
+              <div class="booking-perk-item">
+                <i class="bi bi-cup-straw booking-perk-icon"></i>
+                <span><strong>Welcome Champagne:</strong> Chilled Moët & Chandon upon suite check-in.</span>
+              </div>
+              <div class="booking-perk-item">
+                <i class="bi bi-person-check booking-perk-icon"></i>
+                <span><strong>Concierge Access:</strong> 24/7 dedicated personal concierge assistance.</span>
+              </div>
+            </div>
+            <div class="mt-3 pt-2 border-top text-muted small d-flex justify-content-between">
+              <span><i class="bi bi-arrows-angle-expand me-1"></i> 750 sq.ft</span>
+              <span><i class="bi bi-clock me-1"></i> Check-in: 3:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="amenities.html">Amenities</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
