@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeResort | Welcome</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar-custom">
+    <div class="nav-left"><div class="nav-logo">LuxeResort</div><input type="checkbox" id="nav-toggle"><label for="nav-toggle" class="menu-icon">☰</label><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="rooms.html">Rooms</a></li><li><a href="gallery.html">Gallery</a></li></ul></div><div class="nav-search"><a href="booking.html" class="btn-custom" style="padding: 0.5rem 1rem;">Book Now</a></div>
+  </nav>
+
+  <header class="hero" style="background: linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.65)), url('https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+    <h1 class="display-3 fw-bold mb-3">Welcome to LuxeResort</h1>
+    <p class="fs-5 mb-5">Discover a sanctuary of coastal luxury, tropical comfort, and personalized service.</p>
+    <form class="booking-bar" action="booking.html">
+      <div class="input-group-custom"><label>Location</label><input type="text" placeholder="Tropical Escape" required></div><div class="divider"></div>
+      <div class="input-group-custom"><label>Check in</label><input type="date" required></div><div class="divider"></div>
+      <div class="input-group-custom"><label>Check out</label><input type="date" required></div>
+      <button type="submit" class="btn-search">Search</button>
+    </form>
+  </header>
+
+  <div class="container my-5">
+    <div class="row text-center py-4 border-top border-bottom fw-bold text-uppercase" style="color: var(--secondary);">
+      <div class="col-6 col-md-3 border-end">500+ Happy Guests</div>
+      <div class="col-6 col-md-3 border-end">3 Luxury Suites</div>
+      <div class="col-6 col-md-3 border-end"><i class="bi bi-star-fill text-warning"></i> 4.9 Rating</div>
+      <div class="col-6 col-md-3">Est. 2010</div>
+    </div>
+  </div>
+
+  <main class="section-wrapper pt-0">
+    <div class="text-center mb-5"><h2>Experience the Extraordinary</h2><p class="text-muted">Curated specifically for your ultimate coastal relaxation.</p></div>
+    <div class="row align-items-center mb-5 pb-5">
+      <div class="col-lg-6 text-center text-lg-start px-4">
+        <h3 class="mb-4">Exclusive Boutique Advantage</h3>
+        <p class="text-muted mb-4">Book a resort that welcomes you with open arms. We offer world-class amenities, stunning ocean views, and connect you with bespoke concierge services the moment you arrive.</p>
+        <a href="about.html" class="btn-custom">Discover Our Story</a>
+      </div>
+      <div class="col-lg-6 feature-image overflow-hidden rounded"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80" alt="Coastal Resort Architecture"></div>
+    </div>
+
+    <div class="text-center mb-5 mt-5"><h2>Featured Accommodations</h2><p class="text-muted">Find the perfect coastal space for your stay.</p></div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 position-relative">
+          <span class="badge bg-dark rounded-pill position-absolute top-0 end-0 m-3 px-3 py-2 fs-6">From $250/night</span>
+          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=600&q=80" alt="Deluxe Room">
+          <div class="card-body text-center p-4">
+            <h4>The Deluxe Haven</h4><p class="text-muted mb-4">A beautifully appointed room featuring a king-size bed and breathtaking ocean views.</p><a href="deluxe.html" class="btn-custom w-100">VIEW ROOM</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 position-relative">
+          <span class="badge bg-dark rounded-pill position-absolute top-0 end-0 m-3 px-3 py-2 fs-6">From $450/night</span>
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Executive Suite">
+          <div class="card-body text-center p-4">
+            <h4>The Executive Suite</h4><p class="text-muted mb-4">Spacious living area, premium amenities, a private balcony, and tropical garden access.</p><a href="executive.html" class="btn-custom w-100">VIEW SUITE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 position-relative">
+          <span class="badge bg-dark rounded-pill position-absolute top-0 end-0 m-3 px-3 py-2 fs-6">From $1,200/night</span>
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80" alt="Penthouse">
+          <div class="card-body text-center p-4">
+            <h4>The Penthouse</h4><p class="text-muted mb-4">The ultimate luxury experience with panoramic ocean views and a private infinity pool.</p><a href="penthouse.html" class="btn-custom w-100">VIEW PENTHOUSE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5 pt-5 mb-5"><h2>Guest Testimonials</h2><p class="text-muted">Don't just take our word for it.</p></div>
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 p-4 bg-light text-center">
+          <div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <blockquote class="blockquote fs-6">"An absolute dream. The attention to detail from the staff made our anniversary unforgettable."</blockquote>
+          <figcaption class="blockquote-footer mt-2">Sarah Jenkins</figcaption>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4 bg-light text-center">
+          <div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <blockquote class="blockquote fs-6">"The Penthouse views are unmatched. Best luxury resort experience I've had in a decade."</blockquote>
+          <figcaption class="blockquote-footer mt-2">Marcus Vance</figcaption>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4 bg-light text-center">
+          <div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+          <blockquote class="blockquote fs-6">"The holistic spa treatments completely rejuvenated me. Highly recommend booking early!"</blockquote>
+          <figcaption class="blockquote-footer mt-2">Elena Rodriguez</figcaption>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h3 class="mb-3" style="color: var(--accent);">Get Exclusive Offers</h3>
+      <p class="mb-4">Subscribe to our newsletter for seasonal promotions and resort updates.</p>
+      <form class="d-flex justify-content-center mx-auto" style="max-width: 500px;">
+        <input type="email" class="form-control me-2" placeholder="Enter your email address" required>
+        <button class="btn btn-search rounded" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-links"><a href="index.html">Home</a><a href="amenities.html">Amenities</a><a href="rooms.html">Rooms</a><a href="contact.html">Contact</a><a href="about.html">About</a></div>
+    <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
