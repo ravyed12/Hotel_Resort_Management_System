@@ -1,0 +1,337 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "name": "The Deluxe Haven",
+      "slug": "deluxe",
+      "price": 250,
+      "tagline": "A beautifully appointed room featuring a king-size bed and breathtaking ocean views.",
+      "description": "The Deluxe Haven offers a perfect blend of coastal comfort and modern elegance. Designed with the tropical traveler in mind, this room features a plush king-size bed and floor-to-ceiling windows offering sweeping ocean views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1920&q=80",
+      "thumbnails": [
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=200&q=80"
+      ],
+      "features": [
+        "King Bed",
+        "Ocean View",
+        "Mini Bar",
+        "Rain Shower",
+        "Balcony",
+        "Free Wi-Fi"
+      ],
+      "sqft": 450,
+      "perks": [
+        "Complimentary à la carte breakfast",
+        "Round-trip luxury airport transfer",
+        "Daily fresh fruit & water replenishment",
+        "24/7 dedicated concierge service"
+      ],
+      "perksIcon": "bi-gift",
+      "perksTitle": "What's Included in your stay",
+      "bookingPerks": [
+        {
+          "icon": "bi-water",
+          "title": "Ocean View",
+          "text": "Private balcony with direct views of the turquoise bay."
+        },
+        {
+          "icon": "bi-cup-hot",
+          "title": "Breakfast Included",
+          "text": "Daily fresh tropical à la carte breakfast."
+        },
+        {
+          "icon": "bi-shield-check",
+          "title": "Flexible Policy",
+          "text": "Free cancellation up to 48 hours before check-in."
+        }
+      ],
+      "detailPage": "deluxe.html",
+      "bookingPage": "booking-deluxe.html",
+      "viewLabel": "VIEW ROOM"
+    },
+    {
+      "id": "2",
+      "name": "The Executive Suite",
+      "slug": "suite",
+      "price": 450,
+      "tagline": "Spacious living area, premium amenities, a private balcony, and tropical garden access.",
+      "description": "Elevate your tropical stay in our expansive Executive Suite. This layout features a separate, elegantly furnished living area perfect for entertaining or unwinding. Step out onto your private balcony to take in the breathtaking ocean sunset views.",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1920&q=80",
+      "thumbnails": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=200&q=80"
+      ],
+      "features": [
+        "Separate Living Room",
+        "Ocean View Balcony",
+        "Deep Soaking Tub",
+        "Premium Minibar",
+        "King Size Bed",
+        "Free Wi-Fi"
+      ],
+      "sqft": 750,
+      "perks": [
+        "VIP Beach Club Lounge Access",
+        "Complimentary afternoon tea & cocktails",
+        "Priority spa and dining reservations",
+        "Round-trip luxury airport transfer"
+      ],
+      "perksIcon": "bi-gem",
+      "perksTitle": "Executive Perks Included",
+      "bookingPerks": [
+        {
+          "icon": "bi-car-front",
+          "title": "Airport Chauffeur",
+          "text": "Complimentary round-trip luxury airport transfer."
+        },
+        {
+          "icon": "bi-cup-straw",
+          "title": "Welcome Champagne",
+          "text": "Chilled Moët & Chandon upon suite check-in."
+        },
+        {
+          "icon": "bi-person-check",
+          "title": "Concierge Access",
+          "text": "24/7 dedicated personal concierge assistance."
+        }
+      ],
+      "detailPage": "executive.html",
+      "bookingPage": "booking-executive.html",
+      "viewLabel": "VIEW SUITE"
+    },
+    {
+      "id": "3",
+      "name": "The Penthouse",
+      "slug": "penthouse",
+      "price": 1200,
+      "tagline": "The ultimate luxury experience with panoramic ocean views and a private infinity pool.",
+      "description": "The crown jewel of LuxeResort. The Penthouse spans the entire top floor, offering 360-degree panoramic ocean and skyline views. This ultra-luxurious modern coastal space features dual master bedrooms, a private dining room for twelve, and a fully equipped chef's kitchen.",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1920&q=80",
+      "thumbnails": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=200&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=200&q=80"
+      ],
+      "features": [
+        "24/7 Personal Butler",
+        "Private Infinity Pool",
+        "Chef's Kitchen",
+        "360° Panoramic Views",
+        "Private Dining Room",
+        "Premium Wine Cellar"
+      ],
+      "sqft": 1600,
+      "perks": [
+        "Helicopter or private car airport transfer",
+        "Dedicated private chef available on call",
+        "In-suite couples massage upon arrival",
+        "Unlimited access to VIP Beach Club Lounge"
+      ],
+      "perksIcon": "bi-star-fill",
+      "perksTitle": "The Ultimate Experience",
+      "bookingPerks": [
+        {
+          "icon": "bi-water",
+          "title": "Private Infinity Pool",
+          "text": "Rooftop plunge pool with 360° coastal views."
+        },
+        {
+          "icon": "bi-person-badge",
+          "title": "Dedicated Butler",
+          "text": "24/7 personal butler and in-suite dining service."
+        },
+        {
+          "icon": "bi-award",
+          "title": "VIP Inclusions",
+          "text": "Chauffeur airport limousine & vintage champagne."
+        }
+      ],
+      "detailPage": "penthouse.html",
+      "bookingPage": "booking-penthouse.html",
+      "viewLabel": "VIEW PENTHOUSE"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sarah Jenkins",
+      "rating": 5,
+      "text": "An absolute dream. The attention to detail from the staff made our anniversary unforgettable."
+    },
+    {
+      "id": "2",
+      "name": "Marcus Vance",
+      "rating": 5,
+      "text": "The Penthouse views are unmatched. Best luxury resort experience I've had in a decade."
+    },
+    {
+      "id": "3",
+      "name": "Elena Rodriguez",
+      "rating": 4.5,
+      "text": "The holistic spa treatments completely rejuvenated me. Highly recommend booking early!"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "name": "Elena Rossi",
+      "role": "General Manager",
+      "bio": "General Manager with over 20 years of experience in luxury boutique coastal hospitality.",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "2",
+      "name": "David Chen",
+      "role": "Executive Chef",
+      "bio": "Michelin-starred Executive Chef bringing fresh ocean flavors to our signature restaurant.",
+      "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Aisha Khan",
+      "role": "Head of Guest Experience",
+      "bio": "Head of Guest Experience ensuring every aspect of your tropical stay is flawless.",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "title": "Coastal Pool",
+      "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "title": "Oceanfront Dining",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "title": "Tropical Spa",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "title": "Open-Air Lounge",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "title": "Resort Architecture",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "6",
+      "title": "Luxury Suites",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "1",
+      "name": "Infinity Pool",
+      "description": "Temperature-controlled open-air pool with sweeping views.",
+      "icon": "bi-water",
+      "iconColor": "text-info"
+    },
+    {
+      "id": "2",
+      "name": "Holistic Spa",
+      "description": "Full-service wellness utilizing organic coastal ingredients.",
+      "icon": "bi-heart-pulse",
+      "iconColor": "text-danger"
+    },
+    {
+      "id": "3",
+      "name": "Fine Dining",
+      "description": "Award-winning global coastal cuisine crafted by top chefs.",
+      "icon": "bi-cup-hot",
+      "iconColor": "text-warning"
+    },
+    {
+      "id": "4",
+      "name": "High-Speed Wi-Fi",
+      "description": "Complimentary fiber-optic connectivity across the property.",
+      "icon": "bi-wifi",
+      "iconColor": "text-primary"
+    },
+    {
+      "id": "5",
+      "name": "Valet Parking",
+      "description": "Secure underground facility with complimentary valet.",
+      "icon": "bi-car-front",
+      "iconColor": "text-secondary"
+    },
+    {
+      "id": "6",
+      "name": "Fitness Center",
+      "description": "State-of-the-art gym and daily beach yoga classes.",
+      "icon": "bi-bicycle",
+      "iconColor": "text-success"
+    }
+  ],
+  "spaMenu": [
+    {
+      "id": "1",
+      "treatment": "Deep Ocean Muscle Massage",
+      "duration": "60 / 90 min",
+      "price": "$150 / $210"
+    },
+    {
+      "id": "2",
+      "treatment": "Tropical Glow Facial",
+      "duration": "60 min",
+      "price": "$130"
+    },
+    {
+      "id": "3",
+      "treatment": "Couples Sunset Retreat",
+      "duration": "120 min",
+      "price": "$380"
+    }
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "value": 500,
+      "suffix": "+",
+      "label": "Happy Guests"
+    },
+    {
+      "id": "2",
+      "value": 3,
+      "suffix": "",
+      "label": "Luxury Suites"
+    },
+    {
+      "id": "3",
+      "value": 4.9,
+      "suffix": "",
+      "label": "Rating",
+      "isRating": true
+    },
+    {
+      "id": "4",
+      "value": 2010,
+      "suffix": "",
+      "label": "Established",
+      "isYear": true
+    }
+  ],
+  "bookings": [],
+  "contacts": [],
+  "newsletter": [
+    {
+      "email": "raghav.pandey_cs24@gla.ac.in",
+      "submittedAt": "2026-11-25T08:21:55.281Z",
+      "id": "4GSweIqpc24"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
