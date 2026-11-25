@@ -35,42 +35,39 @@
     <div class="row g-4 align-items-stretch">
       <div class="col-lg-7">
         <div class="booking-card">
-          <form action="#" method="get">
+          <form data-api="bookings">
             <div class="row g-3 mb-3">
               <div class="col-md-6">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Full Name</label>
-                <input type="text" class="form-control p-2 bg-light border-0" placeholder="John Doe" required>
+                <input type="text" name="fullName" class="form-control p-2 bg-light border-0" placeholder="John Doe" required>
               </div>
               <div class="col-md-6">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Email Address</label>
-                <input type="email" class="form-control p-2 bg-light border-0" placeholder="john@example.com" required>
+                <input type="email" name="email" class="form-control p-2 bg-light border-0" placeholder="john@example.com" required>
               </div>
             </div>
 
             <div class="row g-3 mb-3">
               <div class="col-md-6">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Check-in Date</label>
-                <input type="date" class="form-control p-2 bg-light border-0" required>
+                <input type="date" name="checkIn" class="form-control p-2 bg-light border-0" required>
               </div>
               <div class="col-md-6">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Check-out Date</label>
-                <input type="date" class="form-control p-2 bg-light border-0" required>
+                <input type="date" name="checkOut" class="form-control p-2 bg-light border-0" required>
               </div>
             </div>
 
             <div class="row g-3 mb-3">
               <div class="col-md-7">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Room Preference</label>
-                <select class="form-select p-2 bg-light border-0" required>
-                  <option value="">Select a room...</option>
-                  <option value="deluxe">The Deluxe Haven ($250 / night)</option>
-                  <option value="suite">The Executive Suite ($450 / night)</option>
-                  <option value="penthouse">The Penthouse ($1,200 / night)</option>
+                <select class="form-select p-2 bg-light border-0" id="room-select" name="room" required>
+                  <option value="">Loading rooms...</option>
                 </select>
               </div>
               <div class="col-md-5">
                 <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Guests</label>
-                <select class="form-select p-2 bg-light border-0" required>
+                <select class="form-select p-2 bg-light border-0" name="guests" required>
                   <option value="1">1 Guest</option>
                   <option value="2" selected>2 Guests</option>
                   <option value="3">3 Guests</option>
@@ -81,7 +78,7 @@
 
             <div class="mb-3">
               <label class="form-label fw-bold text-uppercase" style="font-size: 0.78rem;">Special Requests</label>
-              <textarea class="form-control p-2 bg-light border-0" rows="2" placeholder="Dietary preferences, arrival timing, anniversary..."></textarea>
+              <textarea class="form-control p-2 bg-light border-0" name="specialRequests" rows="2" placeholder="Dietary preferences, arrival timing, anniversary..."></textarea>
             </div>
 
             <button type="submit" class="btn-search w-100 py-2">Confirm Reservation</button>
@@ -134,5 +131,6 @@
     </div>
     <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

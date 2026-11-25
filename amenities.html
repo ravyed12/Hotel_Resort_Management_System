@@ -21,13 +21,8 @@
   <main class="container my-5 py-5 text-center">
     <div class="mb-5"><h2>Everything You Need</h2><p class="text-muted">Tailored to exceed your expectations at every turn.</p></div>
 
-    <div class="row g-4 mb-5">
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-water text-info display-4 mb-3 d-block"></i><h4>Infinity Pool</h4><p class="text-muted">Temperature-controlled open-air pool with sweeping views.</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-heart-pulse text-danger display-4 mb-3 d-block"></i><h4>Holistic Spa</h4><p class="text-muted">Full-service wellness utilizing organic coastal ingredients.</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-cup-hot text-warning display-4 mb-3 d-block"></i><h4>Fine Dining</h4><p class="text-muted">Award-winning global coastal cuisine crafted by top chefs.</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-wifi text-primary display-4 mb-3 d-block"></i><h4>High-Speed Wi-Fi</h4><p class="text-muted">Complimentary fiber-optic connectivity across the property.</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-car-front text-secondary display-4 mb-3 d-block"></i><h4>Valet Parking</h4><p class="text-muted">Secure underground facility with complimentary valet.</p></div></div></div>
-      <div class="col-md-4"><div class="card h-100"><div class="card-body p-4"><i class="bi bi-bicycle text-success display-4 mb-3 d-block"></i><h4>Fitness Center</h4><p class="text-muted">State-of-the-art gym and daily beach yoga classes.</p></div></div></div>
+    <div class="row g-4 mb-5" id="amenities-container">
+      <p class="text-center text-muted">Loading amenities...</p>
     </div>
 
     <div class="mt-5 pt-5 border-top text-start">
@@ -37,10 +32,8 @@
           <thead class="table-light text-uppercase" style="color: var(--primary);">
             <tr><th>Treatment</th><th>Duration</th><th>Price</th></tr>
           </thead>
-          <tbody>
-            <tr><td>Deep Ocean Muscle Massage</td><td>60 / 90 min</td><td>$150 / $210</td></tr>
-            <tr><td>Tropical Glow Facial</td><td>60 min</td><td>$130</td></tr>
-            <tr><td>Couples Sunset Retreat</td><td>120 min</td><td>$380</td></tr>
+          <tbody id="spa-menu-body">
+            <tr><td colspan="3" class="text-center text-muted">Loading spa menu...</td></tr>
           </tbody>
         </table>
       </div>
@@ -57,5 +50,6 @@
     <div class="footer-links"><a href="index.html">Home</a><a href="amenities.html">Amenities</a><a href="rooms.html">Rooms</a><a href="contact.html">Contact</a><a href="about.html">About</a></div>
     <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
