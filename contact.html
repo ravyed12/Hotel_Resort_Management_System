@@ -32,18 +32,18 @@
       
       <div class="col-lg-7">
         <div class="bg-white p-5 rounded shadow h-100 border-top border-5" style="border-color: var(--primary) !important;">
-          <form action="#" method="get">
+          <form data-api="contacts">
             <div class="mb-4">
               <label class="form-label fw-bold text-uppercase" style="font-size: 0.85rem;">Name</label>
-              <input type="text" class="form-control p-3 bg-light border-0" placeholder="Your Full Name" required>
+              <input type="text" name="name" class="form-control p-3 bg-light border-0" placeholder="Your Full Name" required>
             </div>
             <div class="mb-4">
               <label class="form-label fw-bold text-uppercase" style="font-size: 0.85rem;">Email Address</label>
-              <input type="email" class="form-control p-3 bg-light border-0" placeholder="your@email.com" required>
+              <input type="email" name="email" class="form-control p-3 bg-light border-0" placeholder="your@email.com" required>
             </div>
             <div class="mb-4">
               <label class="form-label fw-bold text-uppercase" style="font-size: 0.85rem;">Message</label>
-              <textarea class="form-control p-3 bg-light border-0" rows="6" placeholder="How can we help you plan your stay?" required></textarea>
+              <textarea class="form-control p-3 bg-light border-0" name="message" rows="6" placeholder="How can we help you plan your stay?" required></textarea>
             </div>
             <button type="submit" class="btn-search w-100 mt-2">Send Message</button>
           </form>
@@ -56,5 +56,6 @@
     <div class="footer-links"><a href="index.html">Home</a><a href="amenities.html">Amenities</a><a href="rooms.html">Rooms</a><a href="contact.html">Contact</a><a href="about.html">About</a></div>
     <p class="footer-copy">&copy; 2026 LuxeResort, Inc. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
